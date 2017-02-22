@@ -1,3 +1,6 @@
+% To reduce the image size in an iterative fashion using pixel averaging 
+% such that if for each iteration the NxN input image is reduced in size to an N/2 x N/2 image. 
+% Hint every four neighboring pixels are averaged to a single pixel output.
 function [ out ] = halfReduce ( img )
 %halfReduce Summary of this function goes here
 %Detailed explanation goes here
