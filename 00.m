@@ -1,3 +1,7 @@
+% Take an input image f (x, y) and find its negative 
+% by using the expression |f (x, y)-255| or 255 – f (x, y) 
+% as an exercise to read and write an image and manipulate its pixels.
+
 f0 = imread ('IM0.JPG');
 f1 = imread ('IM1.JPG');
 f0_imcomplement_1 = 255 - f0;
